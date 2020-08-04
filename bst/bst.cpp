@@ -85,7 +85,7 @@ void bst<T>::del(T val) {
 	del(root, val);
 }
 template <class T>
-void bst<T>::del(bstNode<T>* r, T val) {
+void bst<T>::del(bstNode<T>* &r, T val) {
 	if (r == NULL) { // element not found
 		return;
 	}

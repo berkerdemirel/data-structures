@@ -28,7 +28,7 @@ public:
 private:
 	bstNode<T>* root;
 	void insert(bstNode<T>*& r, T val);
-	void del(bstNode<T>* r, T val);
+	void del(bstNode<T>* &r, T val);
 	void deleteAll(bstNode<T>* r);
 	bstNode<T>* find(bstNode<T>* r, T val);
 	bstNode<T>* findMax(bstNode<T>* r);
